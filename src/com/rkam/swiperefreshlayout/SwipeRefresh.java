@@ -64,7 +64,7 @@ public class SwipeRefresh extends TiUIView {
 				this.view = (TiViewProxy) view;
 				this.layout.setNativeView(this.view.getOrCreateView().getNativeView());
 				this.layout.addView(this.view.getOrCreateView().getOuterView());
-				this.layout.setColorSchemeColors(color1, color2, color3, color4);
+				this.layout.setColorSchemeResources(color1, color2, color3, color4);
 			}
 		}
 		super.processProperties(d);
